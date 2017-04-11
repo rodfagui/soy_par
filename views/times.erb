@@ -1,0 +1,10 @@
+<h1>Hola</h1>		
+<div>
+  <% @n.times do |x|%>
+    <% n = x + 1 %>
+    <p>	
+	  <%= "#{n} Soy Par!" if n % 2 == 0 %>
+	  <%= "#{n} Soy Impar!" unless n % 2 == 0 %>
+    </p>    
+  <% end %>  	
+</div>
